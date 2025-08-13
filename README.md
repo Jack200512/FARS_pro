@@ -1,7 +1,7 @@
 # FARS_pro
 A beginner-level RAG question answering project exploring retrieval and generation techniques, including hybrid search and Flan-T5 models, with focus on tuning parameters to improve performance under limited GPU resources.
 ---
-# 基于RAG模式与SQuAD数据集的问答性能优化实验
+# 基于SQuAD数据集的RAG问答系统优化实验
 
 本项目基于检索增强生成（RAG）框架，探索在有限资源条件下，通过优化检索策略及参数调优等方式提升问答性能的实验。项目重点分析了不同检索方法（如FAISS、纯向量内积、BM25+混合检索）、生成模型（Flan-T5系列）、以及生成解码策略（Beam Search宽度、最大生成长度等）对最终准确率（Exact Match）和F1分数的影响。
 
@@ -16,6 +16,6 @@ A beginner-level RAG question answering project exploring retrieval and generati
 - DataSet：SQuAD数据集
 - fars-pro.ipynb：代码实现与关键输出结果
 - evaluation.py：官方评估脚本
-- 基于RAG模式与SQuAD数据集的问答性能优化实验.md：详细实验报告
+- 基于SQuAD数据集的RAG问答系统优化实验_实验报告.md：详细实验报告
 ---
-完整的实验过程、参数设置、性能表现以及调参分析均收录在[基于RAG模式与SQuAD数据集的问答性能优化实验.md]文件中，建议阅读以进一步理解本项目的相关细节。
+完整的实验过程、参数设置、性能表现以及调参分析均收录在[基于SQuAD数据集的RAG问答系统优化实验_实验报告.md]文件中，建议阅读以进一步理解本项目的相关细节。
